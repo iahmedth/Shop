@@ -20,8 +20,8 @@ interface SettingsItemProps {
 
 const SettingsItem: React.FC<SettingsItemProps> = ({ icon, text, isLogout = false }) => {
   const textColor = isLogout ? 'text-red-500' : 'text-gray-800';
-  const iconColor = isLogout ? 'text-red-500' : 'text-[#83a9a1]';
-  const chevronColor = isLogout ? 'text-red-400' : 'text-[#83a9a1]';
+  const iconColor = isLogout ? 'text-red-500' : 'text-brand-purple';
+  const chevronColor = isLogout ? 'text-red-400' : 'text-brand-purple';
 
   return (
     <button className="w-full bg-white rounded-xl shadow-sm p-4 flex items-center justify-between text-right transition-transform transform hover:scale-[1.02]">
@@ -57,7 +57,7 @@ const SettingsPage: React.FC = () => {
     return (
         <div className="flex-grow">
             <header className="text-center py-4">
-                 <h1 className="text-5xl font-black tracking-tighter" style={{color: '#83a9a1'}}>موجود</h1>
+                 <h1 className="text-5xl font-black tracking-tighter text-brand-purple">موجود</h1>
             </header>
 
             <main className="px-4 mt-2">

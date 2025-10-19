@@ -51,16 +51,16 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
             <div className="flex justify-between items-center text-xs mt-3">
                 <div className="bg-gray-100 rounded-full px-2 py-1">
                     <span className="text-gray-500">الربح</span>
-                    <strong className="text-brand-green-dark mr-1">{product.profit}</strong>
+                    <strong className="text-brand-purple-dark mr-1">{product.profit}</strong>
                 </div>
                  <div className="bg-gray-100 rounded-full px-2 py-1">
                     <span className="text-gray-500">العدد</span>
-                    <strong className="text-brand-green-dark mr-1">{product.quantity}</strong>
+                    <strong className="text-brand-purple-dark mr-1">{product.quantity}</strong>
                 </div>
             </div>
             <button 
                 onClick={handleCartClick}
-                className={`w-full mt-4 py-2 text-white font-bold rounded-lg flex items-center justify-center space-i-2 text-sm transition-colors duration-200 ${product.inCart ? 'bg-red-500 hover:bg-red-600' : 'bg-brand-green hover:bg-brand-green-dark'}`}
+                className={`w-full mt-4 py-2 text-white font-bold rounded-lg flex items-center justify-center space-i-2 text-sm transition-colors duration-200 ${product.inCart ? 'bg-red-500 hover:bg-red-600' : 'bg-brand-purple hover:bg-brand-purple-dark'}`}
             >
                 <span>{product.inCart ? 'إزالة من السلة' : 'إضافة الى السلة'}</span>
                 <CartIconSmall />

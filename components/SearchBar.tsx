@@ -13,7 +13,7 @@ const SearchBar: React.FC = () => {
             <input
                 type="text"
                 placeholder="ابحث عن منتج"
-                className="w-full py-3 pr-6 pl-12 text-md bg-gray-100 rounded-full border-none focus:ring-2 focus:ring-brand-green transition"
+                className="w-full py-3 pr-6 pl-12 text-md bg-gray-100 rounded-full border-none focus:ring-2 focus:ring-brand-purple transition"
             />
             <div className="absolute inset-y-0 left-0 flex items-center pl-4">
                 <SearchIcon />

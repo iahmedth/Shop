@@ -18,9 +18,9 @@ const YouTubeBanner: React.FC = () => {
     return (
         <div className="relative bg-white p-6 rounded-2xl overflow-hidden shadow">
             <div 
-                className="absolute inset-0 bg-green-50 opacity-50" 
+                className="absolute inset-0 bg-violet-50 opacity-50" 
                 style={{
-                    backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%235E8B7E' fill-opacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`
+                    backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%238b5cf6' fill-opacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`
                 }}>
             </div>
             <div className="relative z-10 flex items-center space-i-4">
@@ -33,7 +33,7 @@ const YouTubeBanner: React.FC = () => {
             </div>
             <div className="absolute bottom-3 left-1/2 -translate-x-1/2 flex space-i-2 z-10">
                 <span className="w-2.5 h-2.5 bg-gray-300 rounded-full"></span>
-                <span className="w-6 h-2.5 bg-brand-green rounded-full"></span>
+                <span className="w-6 h-2.5 bg-brand-purple rounded-full"></span>
                 <span className="w-2.5 h-2.5 bg-gray-300 rounded-full"></span>
             </div>
         </div>

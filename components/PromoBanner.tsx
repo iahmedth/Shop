@@ -17,14 +17,14 @@ const ArrowLeftIcon = () => (
 
 const PromoBanner: React.FC = () => {
     return (
-        <div className="bg-gradient-to-l from-brand-green to-brand-green-light p-4 rounded-2xl flex items-center justify-between text-white shadow-lg">
+        <div className="bg-gradient-to-l from-brand-purple to-brand-purple-light p-4 rounded-2xl flex items-center justify-between text-white shadow-lg">
             <div className="flex items-center space-i-4">
                 <div className="bg-white/20 p-3 rounded-full">
                     <ArrowLeftIcon />
                 </div>
                 <div className="flex flex-col">
                     <h2 className="text-xl font-bold">عروض وتخفيضات حصرية</h2>
-                    <span className="mt-1 bg-white/90 text-brand-green text-sm font-bold py-1 px-3 rounded-full w-max">خصومات مميزة</span>
+                    <span className="mt-1 bg-white/90 text-brand-purple text-sm font-bold py-1 px-3 rounded-full w-max">خصومات مميزة</span>
                 </div>
             </div>
             <div className="relative">

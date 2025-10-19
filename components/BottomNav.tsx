@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 // Using a generic type for icon components for cleaner code
@@ -62,7 +63,7 @@ interface BottomNavProps {
 const BottomNav: React.FC<BottomNavProps> = ({ activePage, onNavigate }) => {
     return (
         <div className="fixed bottom-6 left-1/2 -translate-x-1/2 w-[95%] max-w-sm z-50">
-            <div className="bg-[#83a9a1] rounded-full h-20 flex items-center justify-around shadow-2xl">
+            <div className="bg-brand-purple-light rounded-full h-20 flex items-center justify-around shadow-2xl">
                 <NavItem icon={HomeIcon} label="الرئيسية" active={activePage === 'home'} onClick={() => onNavigate('home')} />
                 <NavItem icon={ListIcon} label="الطلبات" active={activePage === 'orders'} onClick={() => onNavigate('orders')} />
                 <NavItem icon={HeartIcon} label="المفضلات" active={activePage === 'favorites'} onClick={() => onNavigate('favorites')} />
